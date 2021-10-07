@@ -8,11 +8,11 @@ const OverviewPage = () => {
         <div className={styles.cardsWrapper}>
           <div className={styles.card}>
             <p>Majestic</p>
-            <h1>Notes</h1>
+            <h1>Quick Notes</h1>
           </div>
           <div className={styles.card}>
             <p>Majestic</p>
-            <h1>Todos</h1>
+            <h1>Quick Todos</h1>
           </div>
         </div>
       </div>

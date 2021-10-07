@@ -9,7 +9,7 @@ const Input = ({ inputOption }, ...props) => {
       type={inputOption.type}
       placeholder={inputOption.placeholder}
       value={inputOption.value}
-      onChange={(e) => inputOption.handler(e)}
+      onChange={(e) => inputOption.handler(e, inputOption.key)}
       {...props}
     />
   );

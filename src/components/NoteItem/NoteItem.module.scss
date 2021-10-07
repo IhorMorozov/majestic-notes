@@ -1,0 +1,19 @@
+@import '../../styles/colors';
+
+.noteItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  &:hover {
+    background: $logo-color;
+    color: black;
+    transition: all 0.2s ease-in;
+  }
+}
+.noteButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -3,9 +3,9 @@
 .navbar {
   display: flex;
   align-items: center;
-  height: 70px;
+  height: 7vh;
   background: $navbar-background-color;
-  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  //box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 16px;
 
   .navbarItems {
@@ -18,8 +18,8 @@
       height: 24px;
       margin: 8px;
       &:hover {
-        transform: rotate(90deg) scale(1.05);
-        transition: all 0.2s ease-in;
+        transform: rotate(360deg);
+        transition: all 0.4s ease-in;
       }
     }
     .navbarItem {

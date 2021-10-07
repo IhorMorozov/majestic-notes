@@ -2,14 +2,14 @@
 
 .button {
   border: none;
-  margin: 0px;
+  margin: 0;
   height: 35px;
   width: 35px;
-  background-color: rgb(64, 68, 79);
-  padding: 0.15rem 0.5rem;
+  background-color: $logo-color;
+  //padding: 0.5rem;
   border-radius: 0.5rem;
   font-size: 1.1rem;
   &:hover {
-    background-color: grey;
+    background-color: $button-hover-color;
   }
 }
