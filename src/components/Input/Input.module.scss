@@ -1,0 +1,13 @@
+@import '../../styles/colors';
+
+.input {
+  border-radius: 16px;
+  background-color: $navbar-background-color;
+  width: 100%;
+  padding: 20px 20px;
+  font-size: 1rem;
+  color: $primary-text-color;
+  outline: none;
+  border-style: none;
+  margin-right: 50px;
+}

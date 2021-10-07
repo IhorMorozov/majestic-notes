@@ -1,0 +1,23 @@
+@import '../../styles/colors';
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  .done {
+    text-decoration: line-through;
+    opacity: 50%;
+  }
+  .none {
+    text-decoration: none;
+  }
+  .center {
+    display: flex;
+    align-items: center;
+  }
+}
+hr {
+  border: 1px solid $primary-text-color-grey;
+}

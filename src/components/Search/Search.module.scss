@@ -1,0 +1,13 @@
+@import '../../styles/colors';
+
+.search {
+  border-radius: 20px;
+  background-color: $primary-text-color-black;
+  width: 500px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: $primary-text-color;
+  outline: none;
+  border-style: none;
+  margin-right: 50px;
+}

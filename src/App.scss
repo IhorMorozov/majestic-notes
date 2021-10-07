@@ -1,0 +1,18 @@
+@import 'styles/colors';
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  background-color: $background-color;
+}
+
+html,
+input,
+textarea,
+button {
+  font-family: 'Inter var', sans-serif;
+  color: $primary-text-color;
+}

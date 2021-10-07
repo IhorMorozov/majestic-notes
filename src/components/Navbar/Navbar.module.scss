@@ -1,0 +1,43 @@
+@import '../../styles/colors';
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background: $navbar-background-color;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 16px;
+
+  .navbarItems {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .navbarLogo {
+      width: 24px;
+      height: 24px;
+      margin: 8px;
+      &:hover {
+        transform: rotate(90deg) scale(1.05);
+        transition: all 0.2s ease-in;
+      }
+    }
+    .navbarItem {
+      margin: 0 6px;
+      padding: 8px 12px;
+      font-size: 1rem;
+      text-decoration: none;
+      color: $navbar-text-color;
+      font-weight: bold;
+
+      &:hover {
+        color: $primary-text-color;
+      }
+    }
+    .navbarItemActive {
+      color: $primary-text-color;
+      border-radius: 12px;
+      background-color: $navbar-active-link-background-color;
+    }
+  }
+}
